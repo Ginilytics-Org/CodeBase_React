@@ -1,70 +1,85 @@
-# Getting Started with Create React App
+# React Demo Application
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Welcome to the React Demo Application! This project showcases a React app with user authentication, a to-do list feature, and integrated Storybook for component development and documentation.
 
-## Available Scripts
+## Features
 
-In the project directory, you can run:
+- **User Authentication**: Secure login and registration functionality.
+- **To-Do List**: Add, edit, and delete tasks with an intuitive UI.
+- **Storybook Integration**: Develop and test components in isolation with Storybook.
 
-### `npm start`
+## Prerequisites
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Before running the project, ensure you have the following installed:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- [Node.js](https://nodejs.org/) (v16 or higher)
+- [npm](https://www.npmjs.com/) (v8 or higher)
 
-### `npm test`
+## Getting Started
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+1. **Clone the repository:**
 
-### `npm run build`
+    ```bash
+    git clone https://github.com/your-username/react_demo_app.git
+    cd react_demo_app
+    ```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+2. **Install dependencies:**
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+    ```bash
+    npm install
+    ```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+3. **Run the application:**
 
-### `npm run eject`
+    ```bash
+    npm start
+    ```
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+    The application will be available at [http://localhost:3000](http://localhost:3000).
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+4. **Run Storybook:**
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+    ```bash
+    npm run storybook
+    ```
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+    Storybook will be available at [http://localhost:6006](http://localhost:6006).
 
-## Learn More
+## Scripts
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+- **Start**: `npm start` - Starts the development server.
+- **Build**: `npm run build` - Builds the application for production.
+- **Test**: `npm test` - Runs tests for the application.
+- **Eject**: `npm run eject` - Ejects the app configuration (use with caution).
+- **Storybook**: `npm run storybook` - Starts Storybook for component development.
+- **Build Storybook**: `npm run build-storybook` - Builds Storybook for production.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Dependencies
 
-### Code Splitting
+This project uses the following key dependencies:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+- **React**: `^18.3.1` - JavaScript library for building user interfaces.
+- **Ant Design**: `^5.20.6` - Design system and React UI library.
+- **React Router**: `^6.26.2` - Declarative routing for React.
+- **SweetAlert2**: `^11.14.0` - Beautiful and customizable alerts.
+- **Storybook**: `^8.3.0` - Development environment for UI components.
 
-### Analyzing the Bundle Size
+## Development
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+For development, we use:
 
-### Making a Progressive Web App
+- **ESLint**: For linting the codebase.
+- **Jest**: For testing.
+- **Webpack**: For module bundling.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+## Acknowledgements
 
-### Advanced Configuration
+- [React](https://reactjs.org/)
+- [Ant Design](https://ant.design/)
+- [Storybook](https://storybook.js.org/)
+- [SweetAlert2](https://sweetalert2.github.io/)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+---
 
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Feel free to modify this README as needed. For any questions or issues, please open an issue on the [GitHub repository](https://github.com/your-username/react_demo_app/issues).
