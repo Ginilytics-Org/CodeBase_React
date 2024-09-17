@@ -82,4 +82,4 @@ For development, we use:
 
 ---
 
-Feel free to modify this README as needed. For any questions or issues, please open an issue on the [GitHub repository](https://github.com/your-username/react_demo_app/issues).
+
