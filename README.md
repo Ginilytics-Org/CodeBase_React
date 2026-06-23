@@ -1,4 +1,4 @@
-# React Demo Application
+# React Demo Application 
 
 Welcome to the React Demo Application! This project showcases a React app with user authentication, a to-do list feature, and integrated Storybook for component development and documentation.
 
